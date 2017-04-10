@@ -1,0 +1,323 @@
+/* ::::: http://corpus.quran.com/css/main.css ::::: */
+
+body { font-family: Georgia; margin: 0px; 
+        position: relative;
+}
+#container{
+    margin: 0px auto;
+    padding: 0px;
+    width: 97%;
+   
+    
+}
+table.toolbar { font-size: 12px; font-family: Arial; width: 100%; border-bottom: 1px solid rgb(222, 222, 222); background-color: rgb(240, 240, 240); text-align: right; }
+table.toolbar td { color: rgb(153, 153, 153); padding-right: 8px; padding-top: 3px; padding-bottom: 4px; }
+a, a:visited { color: rgb(72, 134, 208); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table.pageTemplate td.contentCell { vertical-align: top; }
+table.pageTemplate td.contentCell div.content { width: 740px; text-align: justify; line-height: 1.33em; }
+table.pageTemplate td.title h2 { margin: 0px; }
+table.pageTemplate td.leedsLogo { text-align: right; vertical-align: bottom; }
+h2 { font: 1.4em Tahoma; color: rgb(54, 95, 145); margin-bottom: 0px; }
+p.first { margin-top: 0px; }
+ul.also { margin: 0px; padding-left: 1em; }
+img { border: 0px none; }
+div.navigationPane { text-align: center; margin-top: 2em; font: 0.833em Arial; }
+div.navigationPane img { vertical-align: middle; }
+table.verbTable { border-top: 1px solid black; width: 100%; }
+table.verbTable td { font-size: 0.8333em; text-align: center; padding: 0.2em 1em; border-bottom: 1px dashed rgb(180, 180, 180); }
+table.verbTable td.ot { font-family: "Traditional Arabic",Scheherazade,"Times New Roman"; color: rgb(50, 150, 50); font-size: 1.4em; font-weight: bold; }
+table.verbTable tr.head td { font-weight: bold; border-bottom: 1px solid black; background: none repeat scroll 0% 0% rgb(244, 255, 229); }
+
+@font-face {
+    font-family:"Samarqand";
+    src: url("Samarqand.eot"); 
+}
+@font-face {
+    font-family:"Samarqand";
+    src: url("Samarqand.ttf"); 
+}
+
+table.verbTable td.at {
+    font-family:'Samarqand', sans-serif;
+    font-size: 1.4em;
+    font-weight:normal;
+    text-align: right;
+    line-height: 100%;
+    color: rgb(50, 150, 50);
+    
+}
+#oldLetters{
+    font-family: "Samarqand", sans-serif;
+    font-size: 1.4em;
+    line-height: 100%;
+    display: inline-block;
+    margin-bottom:1.8em; 
+}
+
+#simLetters{
+    font-family: "Samarqand", sans-serif;
+    font-size: 1.4em;
+    line-height: 100%;
+    display: inline-block;
+    margin-bottom:1.8em; 
+}
+.at{
+   
+    
+    line-height: 100%;
+    color:  black;
+   
+}
+/*
+@font-face {
+    font-family:"Coranica";
+    src: url("coranica_allerseelen2012_09.eot"); 
+}
+@font-face {
+    font-family:"Coranica";
+    src: url("coranica_allerseelen2012_09.ttf"); 
+}
+
+table.verbTable td.ot {
+    font-family:'Coranica', sans-serif;
+    font-size: 1.4em;
+    font-weight:normal;
+    text-align: center;
+    line-height: 100%;
+    color: rgb(50, 150, 50);
+    
+}
+    
+    */
+span.highlighted {
+  
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 45%;
+  background:  rgb(50, 150, 50);
+  
+  
+}
+span.term0 {
+ font-weight: bold;
+  display: inline-block;
+  border-radius: 45%;
+  background:  rgb(50, 150, 50);
+  
+}
+span.term1 {
+ font-weight: bold;
+  display: inline-block;
+  border-radius: 45%;
+  background:  rgb(50, 150, 50);
+  
+}
+span.term2 {
+  font-weight: bold;
+  display: inline-block;
+  border-radius:45%;
+  background:  rgb(50, 150, 50);
+  
+}
+#search-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+#search-box input[type='text']{
+    width: 100%;
+}
+#form-search{
+    height: auto;
+    position: absolute;
+    top:5px;
+    right:10px;
+    min-height:200px;
+    display: block;
+    
+}
+div label{
+    width: 100%;
+}
+#content{
+    
+    clear: both;   
+    direction: rtl;
+    margin: 10px;
+    width: 95%;
+    text-align: center;
+    
+    font-family:'Samarqand', sans-serif;
+    font-size: 1.4em;
+    font-weight:normal;
+    line-height: 100%;
+}
+pre.ayatN{
+    margin: 5px auto;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    position: relative;
+    text-align: left;
+    font-family:"Traditional Arabic",Scheherazade,"Times New Roman";
+    font-size: 1.1em;
+    font-weight:normal;
+    width: 80%;
+    height: auto;
+    background-color: rgb(50, 150, 50);
+    direction: ltr;
+    -ms-word-break: break-all;
+     word-break: break-all;
+
+/* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+  /* from https://css-tricks.com/snippets/css/make-pre-text-wrap/  */
+    
+    word-break: break-all; /* webkit */
+word-wrap: break-word;
+white-space: pre;
+white-space: -moz-pre-wrap; /* fennec */
+white-space: pre-wrap;
+white-space: pre\9; /* IE7+ */
+   
+}
+
+pre .close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    color:  #000;
+    background-color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+pre .close:hover{
+    
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+pre a{
+    display: inline-block;
+    color:  #000;
+    background-color: #fff;
+    border-radius: 5%;
+    text-decoration: none;
+}
+pre a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+pre  div.word2word .bigger{     
+    font-size: 2.5em;
+	border: 1px; line-height: 100%; margin: 2px; padding: 2px;
+        display: inline-block; 
+}
+pre div.word2word .wordpair{ 
+    margin-left: 1em;
+   
+}
+pre div.word2word .a{
+	display: block;
+	direction: rtl;		
+}
+pre div.word2word .e{
+	display: block;
+	direction: ltr;
+}
+pre div.word2word .a2{
+	direction: rtl;		
+}
+pre div.word2word .e2{
+    direction: ltr;
+}
+pre div.word2word { 
+    background-color: #fff;
+    width: 100%;
+    direction: rtl;
+    padding: 0.1em;
+        -ms-word-break: break-all;
+     word-break: break-all;
+
+/* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+}
+pre div.grammar{ /*font-size: 2.5em; direction: rtl;*/
+    background-color: #fff;
+    margin:0 auto;
+    width: 100%;
+    direction: rtl;
+    padding: 0.1em;
+    line-height: 100%;
+       -ms-word-break: break-all;
+     word-break: break-all;
+
+/* Non standard for webkit */
+     word-break: break-word;
+ -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;       
+}
+pre div.grammar div {
+    margin-top: 1em;
+}
+pre div.grammar div.A {
+    font-size: 2.4em;
+    
+    margin-top: 1em;
+    display: block;
+    height:auto;
+       
+}
+pre div.grammar div.A a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+pre div.grammar .E{
+    font-size: 1em; 
+    direction: ltr;
+}
+
+/*GRMMAR RULES*/
+pre div.grammar .ACC {color:#FF7E1E;}
+pre div.grammar	.NOM {color:#DD0008;}
+pre div.grammar	.NOM:hover {background-color:#F3A6A9;color:#DD0008;cursor:pointer;}
+pre div.grammar	.GEN {color:#169200;}
+
+pre div.grammar .GRMR{ 
+    max-height: 120px; overflow: auto;
+}
+pre div.grammar .ACC:after, pre div.grammar .NOM:after, pre div.grammar .GEN:after, pre div.grammar .V:after, pre div.grammar .N:after
+{
+    content: "\200E(" attr(title) ")\200E";
+    position: relative;
+    font-size: .5em;
+	//top: 20px;
+	//left: 35px;
+	color: gray;
+    vertical-align: sub;
+}   
+
+.stat{
+    display: inline-table;
+}
