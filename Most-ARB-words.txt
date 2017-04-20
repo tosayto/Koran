@@ -1,0 +1,86 @@
+﻿1	mino	"مِنْ"	from	49	818	1673
+2	fiy	"فِي"	in	48	742	1185
+3	maA	"مَا"	what	65	495	1010
+4	All~ahi	"اللَّهِ"	Allah	34	277	828
+5	laA	"لَا"	not	54	245	812
+6	Al~a*iyna	"الَّذِينَ"	those who	58	453	810
+7	All~ahu	"اللَّهُ"	Allah	46	339	733
+8	mina	"مِنَ"	of	33	274	693
+9	<il~aA	"إِلَّا"	except	23	444	662
+10	walaA	"وَلَا"	and not	33	346	658
+11	wamaA		"وَمَا"	"And not"	32	245	646
+12	<in~a	"إِنَّ"	Indeed,	10	515	609
+13	All~aha	"اللَّهَ"	Allah	26	458	592
+14	>ano	"أَنْ"	that	31	287	519
+15	EalaY`	"عَلَىٰ"	on	42	115	428
+16	qaAla	"قَالَ"	He said, 	23	232	416
+17	mano	"مَنْ"	whom	55	76	372
+18	<ino	"إِنْ"	if	21	173	344
+19	vum~a	"ثُمَّ"	than	14	162	337
+20	bihi	"بِهِ"	with it	101	31	327
+21	lahumo	"لَهُمْ"	for them	34	152	325
+22	kaAna	"كَانَ"	is	50	126	323
+23	bimaA	"بِمَا"	of what	25	90	296	
+24	lakumo	"لَكُمْ"	for you	36	136	294
+25	*a`lika	"ذَٰلِكَ"	That	23	110	280
+26	lahu	"لَهُ"	for him	60	82k	275
+27	Al~a*iy	"الَّذِي"	(is) the One Who	58	71	268
+28	<ilaY`	"إِلَىٰ"	to	22	171	265
+29	huwa	"هُوَ"	He	42	95k	265
+30	>awo	"أَوْ"	or	5	237	264
+31	qulo	"قُلْ"	Say,	2	254	263
+32	A^manuwA	"آمَنُوا"	believe!	24	66k	253
+33	qaAluwA	"قَالُوا"	They said,	21	112	250
+34	EalaY	"عَلَى"	on	26	52	242
+35	fiyhaA	"فِيهَا"	therein	34	84	241
+36	waAll~ahu	"وَاللَّهُ"	And Allah	12	189	239
+37	wamano	"وَمَنْ"	And whoever	28	112	234
+38	kaAnuwA	"كَانُوا"	they used to	35	55	229
+39	Alo>aroDi	"الْأَرْضِ"	the earth	21	101	219
+40	<i*aA	"إِذَا"	when	8	139	195
+41	ha`*aA	"هَٰذَا"	this	27	56k	190
+42	kafaruwA	"كَفَرُوا"	disbelieved	22	59	189
+43	kunotumo	"كُنْتُمْ"	you are	26	63	188
+44	Ealayohimo	"عَلَيْهِمْ"	to them	52	36	183
+45	humo	"هُمْ"	they	15	114	180
+46	$ayo'K	"شَيْءٍ"	thing	24	91k	179
+47	Als~amaAwaAti	"السَّمَاوَاتِ"	the heavens	7	106	175
+48	wahuwa	"وَهُوَ"	And He	17	76k	171
+49	wa<ino	"وَإِنْ"	And if	21	79	170
+50	waAl~a*iyna	"وَالَّذِينَ"	And those who	14	81k	164
+51	lamo	"لَمْ"	not	20	116	163
+52	<i*o	"إِذْ"	when	5	95k	156
+53	<in~aA		"إِنَّا"	Indeed, We	22	59k	156
+54	falaA	"فَلَا"	So (do) not	36	24	156
+55	Eano	"عَنْ"	from	20	89	153
+56	<in~ahu	"إِنَّهُ"	Indeed, He	25	53k	147
+57	Ealayokumo	"عَلَيْكُمْ"	upon you	31	44	146
+58	Ealayohi	"عَلَيْهِ"	for it	55	17	145
+59	minohumo	"مِنْهُمْ"	among them	36	24	145
+60	Hat~aY`	"حَتَّىٰ"	until	7	114	142
+61	yaA >ay~uhaA	"يَا أَيُّهَا"	O you	4	92	142
+62	<ilaY	"إِلَى"	to	15	87k	140
+63	biAll~ahi	"بِاللَّهِ"	in Allah	21	67	139
+64	wahumo	"وَهُمْ"	while they	15	62	136
+65	>uwla`}ika	"أُولَٰئِكَ"	Those	15	55k	133
+66	yawoma	"يَوْمَ"	(on the) Day	23	43	133
+67	<in~iy	"إِنِّي"	Indeed, I	23	37	131
+68	wa<i*aA	"وَإِذَا"	And when	5	114	130
+69	fiyhi	"فِيهِ"	in it	37	32	127
+70	walaqado	"وَلَقَدْ"	And certainly	11	44	124
+71	kul~i	"كُلِّ"	every	9	90	123
+72	qado	"قَدْ"	Indeed,	32	19	120
+73	lil~ahi	"لِلَّهِ"	to Allah	44	22	116
+74	rab~ika	"رَبِّكَ"	(of) your Lord	11	30k	116
+75	Ald~unoyaA	"الدُّنْيَا"	(of) the world	17	29k	115
+76	<in~amaA	"إِنَّمَا"	Only	9	59k	113
+77	balo	"بَلْ"	Nay,	11	74k	113
+78	mim~aA	"مِمَّا"	of what	18	53	111
+79	>amo	"أَمْ"	Or	5	61k	110
+80	waAlo>aroDi	"وَالْأَرْضِ"	and the earth.	9k	108
+81	walawo	"وَلَوْ"	And if	10	65	108
+82	ya$aA'u	"يَشَاءُ"	He wills	9		43k	108
+83	minokumo	"مِنْكُمْ"	among you	25	49	105
+84	falam~aA	"فَلَمَّا"	But when	9	33	101
+85	EaliymN	"عَلِيمٌ"	All-Knowing.	18	21	100
+
