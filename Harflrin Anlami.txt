@@ -9,11 +9,11 @@ vav=davet etmek, görmek,gördugünú
 ka=konuşmak, karar almak, yazmak,gercekler, 
 kef=buyuk yok olma aniden, uit het niets,(desteklemek)(gerektigi kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi icin, herkes icin. 
 gayn=calışmak, (ayırmak)(okumak),takip etmek
-sad=yokolmakveolmak, yasaya gore, volgens regels, bir taraf/ta/a.
+sad=yokolmakveolmak, yasaya gore, volgens regels, bir taraf/ta/a,  tarafin apacik.
 sin=sahipolmak, sormak
 be=te=se=vermek,almak,istemek
 elif=durmak,O
 fe=uzunzamantutmak, uzunca bir muddet, sınırın en sonu, fayda, gercekler
 mim=tutmak, kavramak, guvenmek, guvenle, yap[a,ı][lan]lar (bir önceki/sonraki harfe bak)
-ti=yoktan durup, durup yoktan, birden bire, basmak, ezmek, taraf apacik
+ti=yoktan durup, durup yoktan, birden bire, basmak, ezmek, o(nun) taraf(i)
 ra=bakmak, acıga cikmak,beklemek
