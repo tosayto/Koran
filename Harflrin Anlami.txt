@@ -1,0 +1,19 @@
+﻿PATTERN=desen
+nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), acıkca, apacık,anlaşılır, duidelijk
+ya=tersine,gelmek
+lam=susmak,(devam etmek), ilerlemek
+ha=başlamak, cıkmak, gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan, cıkmak
+he=izin vermek(kaydedilen)
+dal=kucuk yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek
+vav=davet etmek, görmek,gördugünú
+ka=konuşmak, karar almak, yazmak,gercekler, 
+kef=buyuk yok olma aniden, uit het niets,(desteklemek)(gerektigi kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi icin, herkes icin. 
+gayn=calışmak, (ayırmak)(okumak),takip etmek
+sad=yokolmakveolmak, yasaya gore, volgens regels, bir taraf/ta/a.
+sin=sahipolmak, sormak
+be=te=se=vermek,almak,istemek
+elif=durmak,O
+fe=uzunzamantutmak, uzunca bir muddet, sınırın en sonu, fayda, gercekler
+mim=tutmak, kavramak, guvenmek, guvenle, yap[a,ı][lan]lar (bir önceki/sonraki harfe bak)
+ti=yoktan durup, durup yoktan, birden bire, basmak, ezmek, taraf apacik
+ra=bakmak, acıga cikmak,beklemek
