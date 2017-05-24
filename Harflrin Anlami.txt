@@ -1,19 +1,19 @@
-﻿[20170515 05:51 PATTERN=desen
-nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), acıkca, apacık,anlaşılır, duidelijk
-ya=tersine,gelmek
-lam=susmak,(devam etmek), ilerlemek(izin verme)
-ha=başlamak, cıkmak, gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan, cıkmak
-he=izin vermek(kaydedilen),(Gercek(ler)) .
-dal=kucuk yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek
-vav=davet etmek, gördugünú, görmek,
-ka=konuşmak, karar almak, yazmak,gercekler, (izin  vermek)
-kef=büyüu yok olma aniden, uit het niets,(desteklemek)(gerektigi kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi icin, herkes icin. 
-gayn=calışmak, (ayırmak)(okumak),takip etmek
-sad=yokolmakveolmak, yasaya gore, volgens regels, bir taraf/ta/a,  taraf apacik.
-sin=sahipolmak, sormak
-be=te=se=vermek,almak,istemek
-elif=durmak,O
-fe=uzunzamantutmak, uzunca bir muddet, sınırın en sonu, fayda, gercekler, (izin vermek).
-mim=tutmak, kavramak, guvenmek, guvenle, yap[a,ı][lan]lar (bir önceki/sonraki harfe bak), (kayda bakmaya gelmek)
-ti=yoktan durup, durup yoktan, birden bire, basmak, ezmek, O(nun) taraf(a,i)
-ra=bakmak, acıga cikmak,beklemek]
+﻿[20170515 05:51 PATTERN=desen, 21:47, bu  ayette;
+nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), açıkca, apaçık/anlaşılır=duidelijk
+ya=tersine, gelmek
+lam=susmak,(devam etmek), ilerlemek(izin vermek)
+ha=başlamak, çıkmak, gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan, çıkmak
+he=izin vermek(kaydedilen),(Gercek(ler)).
+dal=küçük yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek
+vav=davet etmek, gördüğünü, görmek,
+kaf=konuşmak, karar almak, yazmak,gerçekler, (izin  vermek)
+kef=büyük yok olma aniden= uit het niets,(desteklemek)(gerektiği kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi için, herkes için. 
+gayn=çalışmak, (ayırmak)(okumak),takip etmek
+sad=yokolmakveolmak, yasaya göre=volgens regels, bir taraf/ta/a,  taraf apaçık/anlaşılır.
+sin=sahip olmak, sormak
+be=te=se=vermek, almak, istemek
+elif=durmak, O
+fe=uzunzamantutmak, uzunca bir müddet, sınırın en sonu, fayda, gerçekler, (izin vermek).
+mim=tutmak, kavramak, güvenmek, güvenle, yap[a,ı][lan]lar (bir önceki/sonraki harfe bak), (kayda bakmaya gelmek)
+tı/zı=yoktan durup, durup yoktan, birden bire, basmak, ezmek, O(nun) taraf(a,i)
+ra= açığa çıkmak,beklemek, bakmak]
