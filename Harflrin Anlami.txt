@@ -1,10 +1,10 @@
-﻿[20170515 05:51 PATTERN=desen, 21:47, bu  ayette;
+﻿[20170524 06:43 PATTERN=desen, 32:07, bu  ayette;
 nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), açıkca, apaçık/anlaşılır=duidelijk
 ya=tersine, gelmek
 lam=susmak,(devam etmek), ilerlemek(izin vermek)
 ha=başlamak, çıkmak, gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan, çıkmak
-he=izin vermek(kaydedilen),(Gercek(ler)).
-dal=küçük yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek
+he=izin vermek(kaydedilen),(Gercek(ler)) .
+dal/zel=küçük yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek
 vav=davet etmek, gördüğünü, görmek,
 kaf=konuşmak, karar almak, yazmak,gerçekler, (izin  vermek)
 kef=büyük yok olma aniden= uit het niets,(desteklemek)(gerektiği kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi için, herkes için. 
@@ -15,5 +15,5 @@ be=te=se=vermek, almak, istemek
 elif=durmak, O
 fe=uzunzamantutmak, uzunca bir müddet, sınırın en sonu, fayda, gerçekler, (izin vermek).
 mim=tutmak, kavramak, güvenmek, güvenle, yap[a,ı][lan]lar (bir önceki/sonraki harfe bak), (kayda bakmaya gelmek)
-tı/zı=yoktan durup, durup yoktan, birden bire, basmak, ezmek, O(nun) taraf(a,i)
+tı/zı=yoktan durup, durup yoktan, birden bire, basmak, ezmek, O(nun) taraf(a,i), (ilerleyen taraf)
 ra= açığa çıkmak,beklemek, bakmak]
