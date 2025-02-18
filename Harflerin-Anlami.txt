@@ -1,4 +1,4 @@
-﻿PPATTERN=desen
+PATTERN=desen
 ن-nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), acıkca, apacık,anlaşılır, duidelijk, (asagi, gizli)
 ي-ya=tersine,gelmek
 ل-lam=susmak,(devam etmek), ilerlemek
