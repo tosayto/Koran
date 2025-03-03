@@ -1,80 +1,79 @@
 PATTERN=desen
-ن-nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), acıkca, apacık,anlaşılır, duidelijk, (asagi, gizli)
-ي-ya=tersine,gelmek
+ن-nun=oluş, karşı gelmek/durmak, engel olmak,(red etmek), açıkça, apaçık, anlaşılır, duidelijk, aşağı, gizli
+ي-ya=tersine, gelmek
 ل-lam=susmak,(devam etmek), ilerlemek
-ح-ha=başlamak, cıkmak(output), gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan
+ح-ha=başlamak, gitmek, (zamanında), (kendinden sonraki harf)-eyleminin sonuca varması/bitişi, zorlamadan, çıkmak(output)
 ه-he=izin vermek(kaydedilen)
-د-dal=kucuk yok olmak aniden, birden bire, (destek)(almak)(kaydedilen)(izinvermek),kayıtta, kaydetmek,meta
-و-vav=davet etmek, görmek,gördugunu
-ق-ka=konuşmak, karar almak, yazmak,gercekler, yazılanlar
-ك-kef=buyuk yok olma aniden, uit het niets,(desteklemek)(gerektigi kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi icin 
-ع-gayn=calışmak, (ayırmak)(okumak),takip etmek, akil
-ص-sad=yokolmakveolmak, yasaya gore, volgens regels, bir taraf/ta/a oluşum,tarafın apacık,taraflı olan, itaat
-س-sin=sahipolmak, sormak, ses
-ب-be=te=se=vermek,almak,sevgi,istemek
-ا-elif=durmak,O
-ف-fe=uzunzamantutmak, uzunca bir muddet, sınırın en sonu, fayda, gercekler, yazilanlar
-م-mim=tutmak, kavramak, guvenmek, guvenle, yap[a,ı][lan]lar (bir onceki harfe bak), bilme, korumak
+د-dal=küçük yok olmak, aniden, birden bire, (destek)(almak)(kaydedilen)(izin vermek), kayıtta, kaydetmek, meta
+و-vav=davet etmek, gördüğünü, görmek
+ق-ka=konuşmak, karar almak, yazmak, gerçekler, yazılanlar
+ك-kef=büyük yok olma aniden, uit het niets,(desteklemek)(gerektiği kadar, noodzakelijke),azami, -siz, -me den, -ma dan, saklamak, kendisi için 
+ع-gayn= çalışmak, (ayırmak)(okumak),takip etmek, akıl
+ص-sad=yok olmak ve olmak, yasaya göre, volgens regels, itaat, bir taraf-/ta/a oluşum, tarafın apaçık, taraflı olan
+س-sin=sahip olmak, sormak, ses
+ب-be=te=se=vermek, almak, sevgi, istemek
+ا-elif=durmak, O
+ف-fe=uzun zaman tutmak, uzunca bir müddet, sınırın en sonu, fayda, gerçekler, yazılanlar
+م-mim=tutmak, kavramak, güvenmek, güvenle, yap[a,ı][lan]lar (bir önceki harfe bak), bilme, korumak
 ط-ti=yoktan durup, durup yoktan, birden bire, basmak, ezmek
-ر-ra=bakmak, control altina almak,cercevelemek
+ر-ra= bakmak, kontrol altına almak, çerçevelemek
 
 
-ق و ل =soylemek ق düsünce
-ق ض ي=juge- tarafsiz düsünce
+ق و ل =söylemek  ق/düşünceyi görüp ilerleme
+ق ض ي=juge- tarafsız düşünce
 
-خ ل ق =create (düsünce ilerleyerek cikmisi output)
-ق ت ل = oldurme, dogusme -düsünce istemede ilerleme
+خ ل ق =create -ilerleyen düşünceden çıkan/output
+ق ت ل = öldürme, dögüsme -düşüncenin istedigi ilerleme
 
-ع ق ل = to understand, to reason -akildaki düsüncenin ilerlemesi
+ع ق ل = to understand, to reason -akıldaki düsüncenin ilerlemesi
 
-ذ و ق =to taste, meta ve karar(meta hakkindaki düsünce)
-ح ق =true
+ذ و ق =to taste, -meta görüp düşünme
+ح ق =true, -düşünceden çıkan
 
-ق و م = to stand up, establish ( düsünceyi tutma/bilme)
+ق و م = to stand up, establish -düşünceyi tutma/bilme/kavrama)
 
+ع ل م = to know -akılda ilerleyeni tutma/bilme/kavrama
 
-ع ل م =to know (akilda ilerleyeni tutma/bilme)
+ع م ل = to do, to work -akılda tuttuğuyla/bildiğiyle ilerleme
 
-ع م ل = to do, to work (akilda tutugugla/bildigigle ilerleme)
+ع ب د = to worship -aklin istedigi meta/kayıt
+س م ع =to hear, to listen -sesi/soruyu tutmak/bilmek akılda
 
-ع ب د = to worship (aklin istedigi meta/kayit)
-س م ع =to hear, to listen (sesi tutmak/bilmek akilda)
+غ ف ر= to ask forgiveness -akıldaki gerçeklere bakma/control 
 
-غ ف ر= to ask forgiveness (akildaki gerceklere bakma/control) 
+ع ص ي = to disobey -akıl tarafının tersi
+ع ف و = to forgive -aklın yazılanları/gerçekleri görmesi)
 
-ع ص ي = to disobey (akil tarafinin tersi)
-ع ف و = to forgive (akildaki yazilanlari/gercekleri gormek)
+ك و ن =to be -kendisi için görünen ama gizli
+ك ف ر = to disbelieve - kendisi için yazılanlara/gerçeklere bakmak/control etmek/çerçevelemek
+ا ك ل = to eat -O kendisi için ilerleme)
+ذ ك ر =to remember -meta ya/kayıta kendisi için bakma
 
-ك و ن =to be (gizli ve apacik, sakli degil)
-ك ف ر = to disbelieve (yazilanlara/gerceklere bakmadan/control etmeden/cercevelemeden)
-ا ك ل = to eat(O gizli/ortulu ilerleme)
-ذ ك ر =to remember(metaya/kayita bakmadan)
+ا م ن = to believe -O bildiği/tuttuğu gizli/açık değil
+ن ز ل = to send down, to reveal -gizli bakıp/çerçeveleyip/kontrolü ilerleme)
 
-ا م ن = to believe (O bildigiyle tuttuguyla gizli/acik gegil)
-ن ز ل = to send down, to reveal(gizli bakmak/cercevelemek/control etmeden ilerleme)
-
-ص ف و = to choose (trafli/taraftar gercekleri yazilanlari gorme)
-ص ل و = to prey, destekleme (traftar/tarafli ilerlemeyi gorme)
+ص ف و = to choose -traflı/taraftar gerçekleri/yazılanları görme)
+ص ل و = to prey, destekleme -taraftar/taraflı ilerlemeyi görme)
 ح ص ي =to count, to calculate, saymak, hesaplamak
 //////////////////
-ق و ل =soylemek ق düsünce
-ك و ن =to be (gizli ve apacik, sakli degil)
-ا م ن = to believe (O bildigiyle tuttuguyla gizli/acik gegil)
-ع ل م =to know (akilda ilerleyeni tutma/bilme)
-ج ع ل= to make (Aklin ilerleyisiyle cikan)
-ك ف ر = to disbelieve (yazilanlara/gerceklere bakmadan/control etmeden/cercevelemeden)
-ج ي ا = to come (cikmanin tersidir o)
-ع م ل = to do, to work (akilda tutugugla/bildigigle ilerleme)
+ق و ل =söylemek ق/düşünce (düşüncenin görünüp ilerlemesi)
+ك و ن =to be (kendisi için görünen gizli)
+ا م ن = to believe (O bildiğiyle/tuttuğuyla gizli/açık değil)
+ع ل م =to know (akılda ilerleyeni tutma)
+ج ع ل= to make (aklın ilerleyişiyle çıkan)
+ك ف ر = to disbelieve (kendisi için yazılanlara/gerçeklere bakma/control etme/çerçeveleme)
+ج ي ا = to come (çıkmanın tersidir o)
+ع م ل = to do, to work (akılda tuttuguyla/bildigiyle ilerleme)
 ا ت ي =give (istemenin tersidir O)
-ر ا ي= to see ( bakmanin O tersi)
-ش ي ا = to wish (sormanin tersidir o)
-خ ل ق =create (düsünce ilerleyerek cikmisi output)
-ن ز ل = to send down, to reveal(gizli bakmak/cercevelemek/control etmeden ilerleme)
-ك ذ ب= to deny, to reject,(lie) (kayitsiz isteme)
-د ع و = to call, arama (kaydi akilda gorme)
-و ق ي = to be righteous, to fear(Allah) (gorunen dusuncenin tersi)
+ر ا ي= to see ( bakmanın tersidir O)
+ش ي ا = to wish (sormanın tersidir O)
+خ ل ق =create (ilerleyen düşünceden çıkan/output)
+ن ز ل = to send down, to reveal (gizli bakarak/çerçeveleyerek/control ederek ilerleme)
+ك ذ ب= to deny, to reject,(lie) ( kendisi için kayıdı/metayı isteme)
+د ع و = to call, arama (kaydı/metayı akılda görme)
+و ق ي = to be righteous, to fear(Allah) (görünen düşüncenin tersi)
 ه د ي = to guide (izin vermek kaydetmeden)
-ر و د =to intend, to desire, to want, to wish (bakip cerceleyim, control edip kayit etmek)
+ر و د =to intend, to desire, to want, to wish (bakıp/control edip görüp kayıt etmek)
 
 ////////
 ٱلْأَرْضِ‌ۚ‎ the earth
@@ -82,5 +81,3 @@ PATTERN=desen
 ٱلنَّجْمُ‎(It is) the star
 قُرْءَانٌ‎(is) a Quran
 ٱلْقَمَرِ‎ the moon
-ٱلشَّمْسُ the sun
-ٱلْجِبَالُ the mountains
