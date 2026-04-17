@@ -8,7 +8,7 @@ if (isset($_GET['file1'])) {
     $file2 = $file1;
     $file_pattern = "/^\d{1,3}$/";
     $file_name="";
-    $DS = '/';
+    $DS = '//';
     if (preg_match($file_pattern, $file1) && preg_match($file_pattern, $file2) && ($file1 === $file2) && ((int)$file1)) {
         
         $file_name=$file1;
