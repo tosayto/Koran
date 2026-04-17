@@ -223,6 +223,7 @@
                            if (element) {
                                element.innerHTML += txt1;
                                // element.style.visibilty = "visible";
+                               element.style.fontSize='150%';
                                txt1 = null;
                            }
                        }

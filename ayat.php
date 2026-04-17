@@ -134,6 +134,7 @@
                 //echo "file and ayat OK";
                 //echo $file1;
                 $stop = false;
+                $begin = false;
     
                 $handle1 = fopen($file1, "r");
 

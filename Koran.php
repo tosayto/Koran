@@ -6277,6 +6277,6 @@
 </div>
      
      
-      <script src="/scripts.js" type="text/javascript" charset="UTF-8"></script>
+      <script src="./scripts.js" type="text/javascript" charset="UTF-8"></script>
     </body>
 </html>

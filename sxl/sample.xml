@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xml:lang="en">
+        <title dir="ltr" lang="en">XHTML Sample File</title>
+    </head>
+    <body>
+        <h1>Welcome to XHTML</h1>
+        <p>
+            <b>XHTML</b> stands for <b>W3C</b>
+            <i>Extensible HyperText Markup Language</i>. <b>XHTML</b> is aimed to replace
+                <b>HTML</b>. While almost identical to <b>HTML</b> 4.01, <b>XHTML</b> is a stricter
+            and cleaner version of <b>HTML</b>. <b>XHTML</b> is <b>HTML</b> defined as an <b>XML</b>
+            application.</p>
+        <p>This is a sample showing that &lt;oXygen/&gt; can be used to edit <b>XHTML</b> documents.
+                <b>XHTML</b> is a <b>W3C</b> standard. </p>
+        <p>
+            <img src="W3C.png" alt=""/>
+        </p>
+        <p>Here are some useful links, regarding <i>XML</i>:</p>
+        <ul>
+            <li>
+                <a href="http://www.xml.com/">www.xml.com</a>
+            </li>
+            <li>
+                <a href="http://www.xml.org/">www.xml.org</a>
+            </li>
+            <li>
+                <a href="http://www.w3c.org/">www.w3c.org</a>
+            </li>
+        </ul>
+        <p>And here is the &lt;oXygen/&gt; home site:<font color="red">
+                <a href="http://www.oxygenxml.com/">http://www.oxygenxml.com/</a>
+            </font>
+        </p>
+        <h2>XHTML Table samples</h2>
+        <p>The column widths can be adjusted by dragging the column margins.</p>
+        <table frame="void" bgcolor="" border="1px" align="center" width="1583">
+            <caption>A table with merged cells, fixed column widths and fixed total width.</caption>
+            <col width="96.0pt"/>
+            <col width="63.0pt"/>
+            <col width="33.0pt"/>
+            <col width="99.75pt"/>
+            <col width="145.5pt"/>
+            <thead>
+                <tr>
+                    <th>x</th>
+                    <th>y</th>
+                    <th colspan="3">Spans <b>Horizontally</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Spans <b>Vertically</b>
+                    </td>
+                    <td colspan="4">b</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">Spans <b>Both</b>
+                    </td>
+                    <td colspan="2">d</td>
+                </tr>
+                <tr>
+                    <td>e</td>
+                    <td>f</td>
+                </tr>
+                <tr>
+                    <td>g</td>
+                    <td>h</td>
+                    <td>i</td>
+                    <td colspan="2">k</td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="2px" align="center">
+            <caption>A table with proportional column widths and 2px border.</caption>
+            <col width="20%"/>
+            <col width="40%"/>
+            <col width="60%"/>
+            <thead>
+                <tr>
+                    <th>First column</th>
+                    <th>Second column</th>
+                    <th>Third column</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>e</td>
+                    <td>f</td>
+                </tr>
+                <tr>
+                    <td>g</td>
+                    <td>h</td>
+                    <td>i</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

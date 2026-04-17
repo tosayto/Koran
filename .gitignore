@@ -1,0 +1,28 @@
+# Large binary assets
+MP3/
+Chairo-Manuscript/
+u/
+
+# Backups
+bak/
+*.RData
+*.Rhistory
+Koran - Copy*.php
+Koran - Copy.php
+scripts - Copy*.js
+scripts - 201510220610 Copy.js
+scripts-bak.js
+index - 20160227.css
+
+# IDE
+nbproject/
+
+# IIS config (project runs on XAMPP/Apache)
+web.config
+
+# R analysis scripts
+readJSONme.R
+*.ods
+
+# Copyrighted files
+The Cambridge Companion to the Quran.pdf
