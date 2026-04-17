@@ -8,7 +8,7 @@
         return $match ? (int) $value : null;
     }
 
-    $DS = DIRECTORY_SEPARATOR;
+    $DS = '/';
     $file1 = "";
     $file_name = "";
     $filemp3 = "";
@@ -57,7 +57,7 @@
         $filemp3_OK = true;
     }
 
-    if ($files_OK && $ayat_OK && $filemp3_OK) {
+    if ($files_OK && $ayat_OK) {
         $stop = false;
         $begin = false;
         $firstTime = true;
@@ -83,11 +83,14 @@
                             $firstTime = false;
                         }
 
-                        $verse1 .= '<audio controls>'
-                            . '<source src="' . $filemp3 . '" type="audio/mpeg">'
-                            . 'Your browser does not support the audio element.'
-                            . '</audio><br />'
-                            . '<a id="E' . $file_name . '-' . $ayatNumber . '"'
+                        if ($filemp3_OK) {
+                            $verse1 .= '<audio controls>'
+                                . '<source src="' . $filemp3 . '" type="audio/mpeg">'
+                                . 'Your browser does not support the audio element.'
+                                . '</audio><br />';
+                        }
+
+                        $verse1 .= '<a id="E' . $file_name . '-' . $ayatNumber . '"'
                             . ' onclick="onWordToWordInit(' . $file_name . ', ' . $ayatNumber . ');">Words</a>'
                             . '<div id="D' . $file_name . '-' . $ayatNumber . '" class="word2word"></div>'
                             . '<a id="G' . $file_name . '-' . $ayatNumber . '"'

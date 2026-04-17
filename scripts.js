@@ -224,6 +224,7 @@
                                element.innerHTML += txt1;
                                // element.style.visibilty = "visible";
                                element.style.fontSize='150%';
+                               element.style.lineHeight='1.2';
                                txt1 = null;
                            }
                        }
@@ -846,6 +847,9 @@
             
 
             var onGrammarInit = function (surano, versno, output) {
+                var gramEl = document.getElementById("F" + surano + "-" + versno);
+                if (gramEl && gramEl.innerHTML !== '') { gramEl.innerHTML = ''; return; }
+
                 var url = 'quranic-corpus-morphology-0.4.txt', url2 = 'quran-uthmaniwitoutoptions.txt';
 
                 AjaxGet(url, true, function (first) {
@@ -887,6 +891,7 @@
 
                 var urlfile = 'js/ayas-s' + surano + 'd15q1.js';
                 var element = document.getElementById("D" + surano + "-" + versno);
+                if (element && element.innerHTML !== '') { element.innerHTML = ''; return; }
                 // var xmlhttp = new XMLHttpRequest();
                 var response = '';
                 var txt1 = '';
@@ -1174,7 +1179,9 @@
             };
 
             function statisticsInit(surano, versno){
-                
+                var statEl = document.getElementById("X" + surano + "-" + versno);
+                if (statEl && statEl.innerHTML !== '') { statEl.innerHTML = ''; return; }
+
                 var url1 = 'quran-simple-clean_with_numbers.txt';
                 var url2 ='Koran_Tokens_ARB_ENG_V9.txt'
 //                AjaxGet(url, true, function (data) {
