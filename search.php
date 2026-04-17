@@ -51,12 +51,12 @@ function getArrayOfSimilar($query){
                }
                if($thirdLetterArr == null){
                    array_push($mixLettersThird, $newQuery[4]);
-               }else{ 
+               }else{
                    array_push($mixLettersThird, $newQuery[4]);
-                   for($m =0; $m < $thirdLetterArr.length; $m++){
+                   for($m =0; $m < count($thirdLetterArr); $m++){
                       array_push($mixLettersThird, $thirdLetterArr[$m]);
                    }
-               } 
+               }
                $mixArrayFirstLength = count($mixLettersFirst); $mixArraySecondLength = count($mixLettersSecond); $mixArrayThirdLength = count($mixLettersThird);
                for($t = 0; $t < $mixArrayFirstLength; $t++){
                    for($p = 0; $p < $mixArraySecondLength; $p++){
@@ -103,89 +103,44 @@ $ok = false;
 //                }
 //}
 if(($queryLength > 0) && ($queryLength < 6)){
-    
+
     if(file_exists("VerbTRV2.txt")){
-       $row = 1;
-        //echo "file exists";
-         if (($handle = fopen("VerbTRV2.txt", "r")) !== false) {
-            //echo "file is ready";
+        $row = 1;
+        $mainArray = getArrayOfSimilar($query);
+        $arrayLengt = count($mainArray);
+
+        if (($handle = fopen("VerbTRV2.txt", "r")) !== false) {
             while (($data = fgetcsv($handle, 1000, "|")) !== false) {
-                $num = count($data);
-                //echo "<p> $num fields in line $row: <br /></p>\n";
-                
                 $row++;
-               
-                if(($data[1] == $query )){
-                       
-                       $add = true;
-                       //echo "found equal";
-                 }
-               
+
+                if($data[1] == $query){
+                    $add = true;
+                }
+
                 if($add === true){
-                    //$temp = $temp . "<br/>FORM: ". $data[4] ."||"."<a id='W".$data[0]. $row . "' data-word='".$data[0] ."' onclick='searchword(this.id); return false ;'>" .$data[0]."</a>" . "||". $data[1] . "||" ."<span id='oldLetters'>".$data[0] ."||".$data[1]."</span>"."<br/>EN: ". $data[6] ."<br/>NL: ". $data[7] ."<br/>TR: ". $data[8] . "<br/>COUNT: ". $data[5] ."<br/>";
                     $temp = $temp . "<br/>FORM: ". $data[4] ."||".$data[0]."||". $data[1] . "||" ."<span id='oldLetters'>".$data[0] ."||".$data[1]."</span>"."<br/>EN: ". $data[6] ."<br/>NL: ". $data[7] ."<br/>TR: ". $data[8] . "<br/>COUNT: ". $data[5] ."<br/>";
-                    
-                    //$temp = $temp . join($data) . " | ";
                     $add = false;
                 }
-                
-            }
-            fclose($handle);
-//            if( strlen($temp) > 0){
-//              //echo "Info : " . join("<br />", $arr);
-//               // echo $temp;
-//            }
-//            else{
-//                //echo "<br />no info";
-//            }
-        
-        
-        
-    }
-       if (($handle = fopen("VerbTRV2.txt", "r")) !== false) {
-            //echo "file is ready";
-            while (($data = fgetcsv($handle, 1000, "|")) !== false) {
-                $num = count($data);
-                //echo "<p> $num fields in line $row: <br /></p>\n";
-                
-                $row++;
-                $mainArray = getArrayOfSimilar($query);
-                $arrayLengt = count($mainArray);
-                for($i=0; $i < $arrayLengt; $i++ ){
-                    if(($data[1] == $mainArray[$i] )){
-                        if($data[1] != $query){
-                         
-                            $add = true;
-                           //echo "found equal"
-                           //;
-                        }
-                     }
 
+                for($i=0; $i < $arrayLengt; $i++){
+                    if($data[1] == $mainArray[$i] && $data[1] != $query){
+                        $add = true;
+                    }
                     if($add === true){
-                        //$temp = $temp . "<br/>FORM: ". $data[4] ."||"."<a id='W".$data[0]. $row . "' data-word='".$data[0] ."' onclick='searchword(this.id); return false ;'>" .$data[0]."</a>" . "||". $data[1] . "||" ."<span id='oldLetters'>".$data[0] ."||".$data[1]."</span>"."<br/>EN: ". $data[6] ."<br/>NL: ". $data[7] ."<br/>TR: ". $data[8] . "<br/>COUNT: ". $data[5] ."<br/>";
                         $similar = $similar . "<br/>FORM: ". $data[4] ."||".$data[0]."||". $data[1] . "||" ."<span id='simLetters'>".$data[0] ."||".$data[1]."</span>"."<br/>EN: ". $data[6] ."<br/>NL: ". $data[7] ."<br/>TR: ". $data[8] . "<br/>COUNT: ". $data[5] ."<br/>";
-
-                        //$temp = $temp . join($data) . " | ";
                         $add = false;
                     }
-                
                 }
-                
             }
             fclose($handle);
-            if( strlen($temp) > 0){
-              //echo "Info : " . join("<br />", $arr);
+
+            if(strlen($temp) > 0){
                 echo $temp .'<br/>Similar:<br />' .$similar;
-            }
-            else{
+            } else {
                 echo "<br />no info";
             }
-        
-        
-        
+        }
     }
 
-    }
-    
 }
 ?>
