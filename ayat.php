@@ -78,11 +78,6 @@
                             . '<a id="C' . $file_name . '-' . $ayatNumber . '" class="close"'
                             . ' onclick="closeMe(' . $file_name . ',' . $ayatNumber . ');">x</a><br />';
 
-                        if (is_arabic_2($line) && $firstTime) {
-                            $verse1 .= '<div id="Arbc-' . $file_name . '-' . $ayatNumber . '">' . $line . '</div>';
-                            $firstTime = false;
-                        }
-
                         if ($filemp3_OK) {
                             $verse1 .= '<audio controls>'
                                 . '<source src="' . $filemp3 . '" type="audio/mpeg">'
@@ -99,6 +94,16 @@
                             . '<a id="Xstatistics' . $file_name . '-' . $ayatNumber . '"'
                             . ' onclick="statisticsInit(' . $file_name . ', ' . $ayatNumber . '); return false;">Statistics</a>'
                             . '<div id="X' . $file_name . '-' . $ayatNumber . '" class="grammar"></div>';
+                    }
+
+                    // Wrap the verse's own Arabic (the first Arabic line of the
+                    // block, ahead of the translations) so gloss.js can tell
+                    // which verse the words under the pointer belong to.
+                    if ($firstTime && is_arabic_2($line)) {
+                        $verse1 .= '<div id="Arbc-' . $file_name . '-' . $ayatNumber . '">'
+                            . trim($line) . '</div>';
+                        $firstTime = false;
+                        continue;
                     }
 
                     $verse1 .= $line;

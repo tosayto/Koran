@@ -329,3 +329,88 @@ pre div.grammar .ACC:after, pre div.grammar .NOM:after, pre div.grammar .GEN:aft
 .stat{ 
     line-height: 3em;
 }
+
+/* ---- hover word gloss (gloss.js) ---------------------------------- */
+
+#gloss-mark,
+#gloss-tip {
+    position: fixed;        /* viewport coords, so no scroll offset maths */
+    display: none;
+    box-sizing: border-box;
+    pointer-events: none;   /* never steal the hover or a text selection */
+}
+#gloss-mark.on,
+#gloss-tip.on {
+    display: block;
+}
+#gloss-tip.measuring {
+    visibility: hidden;     /* laid out, so it can be sized before placing */
+}
+
+#gloss-mark {
+    z-index: 998;
+    border-bottom: 2px solid #c8a24a;
+    background-color: rgba(200, 162, 74, 0.18);
+    border-radius: 2px;
+}
+
+#gloss-tip {
+    z-index: 999;
+    max-width: 24em;
+    padding: 5px 10px 7px;
+    background-color: #1d1d1b;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+#gloss-tip .gloss-ar {
+    font-family: "Traditional Arabic", Scheherazade, 'Samarqand', serif;
+    font-size: 26px;
+    line-height: 1.7;
+    color: #ffd98a;
+}
+#gloss-tip.approx .gloss-en:before {
+    content: "\2248\00A0";  /* the word matched only approximately */
+    opacity: 0.65;
+}
+
+/* ---- per-verse play button (ayatplay.js) -------------------------- */
+
+#content .ayatPlay {
+    display: inline-block;
+    direction: ltr;
+    cursor: pointer;
+    margin: 0 0 0 0.2em;
+    padding: 0.25em 0.35em;   /* a usable click target around a small glyph */
+    font-family: "Segoe UI Symbol", Arial, sans-serif;
+    font-size: 0.62em;
+    line-height: 1;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#content .ayatPlay:hover {
+    text-decoration: none;   /* an underlined triangle just looks broken */
+}
+#content .ayatPlay:before {
+    content: "\25B6";        /* play */
+}
+#content .ayatPlay.playing:before {
+    content: "\25A0";        /* stop */
+}
+#content .ayatPlay.playing {
+    color: #157f3b;
+}
+#content .ayatPlay.loading {
+    opacity: 0.45;
+}
+#content .ayatPlay.missing {
+    opacity: 0.3;
+    cursor: default;
+}

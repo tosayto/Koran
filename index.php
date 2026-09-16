@@ -1,5 +1,36 @@
 <?php
  mb_internal_encoding('UTF-8');
+
+ /**
+  * Which recitations are actually on disk, as one "1"/"0" string per sura
+  * indexed by ayah; index 0 is the sura's own basmala (MP3/{SSS}000.mp3).
+  * scripts.js uses this to leave the play button off verses with no audio.
+  *
+  * One directory listing of MP3/ (~7 ms, ~7 KB of JSON) rather than 6236
+  * file_exists calls. The length of each string comes from the highest ayah
+  * found, so a sura's missing trailing verses simply fall outside it.
+  */
+ function mp3_availability() {
+     $names = @scandir(__DIR__ . '/MP3');
+     if ($names === false) return [];
+
+     $present = [];
+     foreach ($names as $name) {
+         if (preg_match('/^(\d{3})(\d{3})\.mp3$/', $name, $m)) {
+             $present[(int)$m[1]][(int)$m[2]] = true;
+         }
+     }
+
+     $map = [];
+     foreach ($present as $sura => $ayahs) {
+         $line = '';
+         for ($i = 0, $max = max(array_keys($ayahs)); $i <= $max; $i++) {
+             $line .= isset($ayahs[$i]) ? '1' : '0';
+         }
+         $map[$sura] = $line;
+     }
+     return $map;
+ }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -6277,6 +6308,9 @@
 </div>
      
      
+      <script type="text/javascript">var AYAT_AUDIO = <?= json_encode(mp3_availability()) ?>;</script>
       <script src="./scripts.js" type="text/javascript" charset="UTF-8"></script>
+      <script src="./gloss.js" type="text/javascript" charset="UTF-8"></script>
+      <script src="./ayatplay.js" type="text/javascript" charset="UTF-8"></script>
     </body>
 </html>

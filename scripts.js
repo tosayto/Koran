@@ -188,7 +188,19 @@
                var element = document.getElementById("content");
                //var regexp = new RegExp("(\d{1,3})(|)(\d{1,3})(|)", "g");
                var tempInnerHTML = element.innerHTML;
-               element.innerHTML = tempInnerHTML.replace(/(\d{1,3})(\|)(\d{1,3})(\|)/g, '<pre id="B$1' + '-' + '$3' + '"' + ' class="ayatN" ></pre><a id="A$1$2$3$4" class="ayatNum" onclick="getFile($1,$3);">$1$2$3$4</a>');
+               element.innerHTML = tempInnerHTML.replace(/(\d{1,3})(\|)(\d{1,3})(\|)/g, function (label, sura, bar1, ayat) {
+                   // The play button only appears where a recitation exists, and it
+                   // has to sit BEFORE the verse-number link: gloss.js collects a
+                   // verse's words by walking back to a.ayatNum, so anything placed
+                   // after it would be read as part of the Arabic text.
+                   var play = (window.ayatPlay && window.ayatPlay.hasAudio(sura, ayat))
+                       ? '<a id="P' + sura + '-' + ayat + '" class="ayatPlay"></a>'
+                       : '';
+                   return '<pre id="B' + sura + '-' + ayat + '" class="ayatN" ></pre>'
+                       + play
+                       + '<a id="A' + label + '" class="ayatNum" onclick="getFile(' + sura + ',' + ayat + ');">'
+                       + label + '</a>';
+               });
                //var search = "(" + ayatNumber + ")";
                tempInnerHTML = null;
 
