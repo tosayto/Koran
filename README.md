@@ -7,7 +7,7 @@ An interactive web application for exploring the Qur'an at the word, root, and g
 - **Full Qur'an viewer** (`index.php`) — all 114 chapters with searchable Arabic text
 - **Verse detail popup** — click any verse to see word-by-word translation, grammatical breakdown, and audio playback
 - **Root search** — search by 3-letter Arabic root with acoustic/visual letter similarity matching
-- **Verb concordance** (`index.html`) — 1,500+ Quranic verbs indexed by root, frequency, and translation
+- **Verb concordance** (`index-old.html`) — 1,500+ Quranic verbs indexed by root, frequency, and translation
 - **Virtual Arabic keyboard** — for non-Arabic keyboards
 
 ## Running

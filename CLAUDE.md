@@ -8,15 +8,15 @@ A self-contained Quranic research and Arabic linguistics web application. No bui
 
 ## Running the App
 
-- Served via XAMPP: start Apache, then open `http://localhost/EmptySite3/`
-- Entry points: `Koran.php` (full Qur'an view), `index.html` (verb concordance), `ayat.php` (verse detail), `search.php` (root search)
+- Served via XAMPP: start Apache, then open `http://localhost/`
+- Entry points: `index.php` (full Qur'an view — the site root, resolved via Apache's `DirectoryIndex`), `ayat.php` (verse detail), `search.php` (root search), `index-old.html` (legacy static verb concordance)
 - No build step required — edit and refresh
 
 ## Architecture
 
 ### Data Flow
 ```
-Browser → Koran.php (embeds full Qur'an inline)
+Browser → index.php (embeds full Qur'an inline)
         → scripts.js (AJAX calls to search.php and ayat.php)
               ↓
         search.php reads VerbTRV2.txt (pipe-delimited verb lexicon)
@@ -26,8 +26,8 @@ Browser → Koran.php (embeds full Qur'an inline)
 ### Key Files
 | File | Role |
 |------|------|
-| `Koran.php` | Full Qur'an embed (~770 KB), inline verse data |
-| `index.html` | Static verb concordance table (11,820 lines) |
+| `index.php` | Full Qur'an embed (~770 KB), inline verse data — site entry point |
+| `index-old.html` | Legacy static verb concordance table (11,820 lines) |
 | `scripts.js` | Core logic: search highlighting, AJAX, grammar, Buckwalter transliteration |
 | `keyboard.js` | Virtual Arabic keyboard (GreyWyvern v1.49) |
 | `ayat.php` | Verse detail: renders text, audio player, grammar breakdown |
